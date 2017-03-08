@@ -13,7 +13,7 @@ url:                https://mj-youn.github.io
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
-highlighter:        rouge
+highlighter:        pygments
 kramdown:
   auto_ids:         true
   footnote_nr:      1
