@@ -56,3 +56,6 @@
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }});}</style>
     {% endif %}
+
+    <!-- 구글검색 추가 -->
+    <meta name="google-site-verification" content="E4G-PmD2C4WIczMQVAHqKJ4x_i3qPZ0kxjEClLN8grk" />
