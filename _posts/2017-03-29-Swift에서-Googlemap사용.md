@@ -45,7 +45,7 @@ Google map을 연동하기 위해서는 google map api key가 있어야한다.
 
 이는 Google 검색시에 많은 자료가 나오고, google api console자체에도 설명이 잘 되어 있기 때문에 설명하지 않겠다.
 
-```objectivec
+```c
 import UIKit
 import GoogleMaps
 
@@ -70,7 +70,7 @@ Google 검색을 해보면 쉽게 google map 연동 방법을 찾을 수 있다.
 
 필자는 그것이 아니라 화면이외에도 여러 방식으로 map을 사용할 수 있게 하기 위해서 화면의 일부분에 map을 표시한다.
 
-```objectivec
+```c
 import UIKit
 import GoogleMaps
 
