@@ -11,11 +11,11 @@ comments: true
 
 |Browser|Version|
 |---|---|
-|Chrome|43.0 4.0 -webkit-|
+|Chrome|43.0<br/>4.0 -webkit-|
 |Internet Explorer|10.0|
-|FireFox|16.0 5.0 -moz-|
-|Safari|9.0 4.0 -webkit-|
-|Opera|30.0 15.0 -webkit- 12.0 -o-|
+|FireFox|16.0<br/>5.0 -moz-|
+|Safari|9.0<br/>4.0 -webkit-|
+|Opera|30.0<br/>15.0 -webkit-<br/>12.0 -o-|
 
 # 문법
 
