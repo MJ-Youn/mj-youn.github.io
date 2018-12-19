@@ -5,7 +5,7 @@ description: "새롭게 배운 것들을 내 맘대로 작성하는 블로그."
 baseurl: ""
 url: "https://mj-youn.github.io/"
 title_description: "회사에서 진행한 것들.. 흥미를 가지고 배우게 된 것들에 대해서 정리하기 위한 블로그 입니다."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_image: "https://s.gravatar.com/avatar/0c1b4f11eccfba53b6f269d8a8aab6c6?s=80"
 google_analytics: "UA-131189286-1"
 disqus_account: yun0244
 github_repository: https://github.com/MJ-Youn/mj-youn.github.io
