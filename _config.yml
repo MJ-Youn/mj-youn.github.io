@@ -1,31 +1,31 @@
 # Site settings
-title: "Carte Noire"
-email: jacob@jacobtomlinson.co.uk
-description: "A dark blog theme for Jekyll."
+title: "신입 개발자 블로그"
+email: yun0244@naver.com
+description: "새롭게 배운 것들을 내 맘대로 작성하는 블로그."
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
+url: "https://mj-youn.github.io/"
+title_description: "회사에서 진행한 것들.. 흥미를 가지고 배우게 된 것들에 대해서 정리하기 위한 블로그 입니다."
 title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/jacobtomlinson/carte-noire
-addthis_id: ra-513c6fa83da6ec67
-post_limit: 5
+google_analytics: "UA-131189286-1"
+disqus_account: yun0244
+github_repository: https://github.com/MJ-Youn/mj-youn.github.io
+addthis_id: 
+post_limit: 10
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
+twitter_username: 
+github_username: MJ-Youn
 instagram_username: 
 reddit_username: 
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+linkedin_link: 
+google_plus_link: 
+stackoverflow_link: 
 xing_link:
 facebook_link:
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: ""
 
 # Build settings
 markdown: kramdown
