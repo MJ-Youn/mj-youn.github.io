@@ -1,30 +1,56 @@
-# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
-  
-## `Sorry guys but there will be no update until I buy a new laptop.`
-    
-######(If you like this theme or using it, please give a :star: for motivation.)
+# Carte Noire
 
-**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
+A simple Jekyll theme for blogging. Not named after the coffee.
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+![Homepage](http://i.imgur.com/xlmHArV.png)
 
-## Preview
+### Article
+![Article](http://i.imgur.com/8rD8FfC.png)
 
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
+### Disqus Comments
+![Comments](http://i.imgur.com/TBZHQwF.png)
 
-See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
+### Posts grouped by year
+![All Posts](http://i.imgur.com/9bNs2Sc.png)
 
-## Getting Started
+### JavaScript Search
+![Search](http://i.imgur.com/yQqMeSl.png)
 
-To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
+### Menu by mmenu
+![Menu](http://i.imgur.com/SClrNSH.png)
+
+## Contact
+If you wish to contact me regarding this theme please raise an issue on GitHub,
+tweet me [@_jacobtomlinson](http://www.twitter.com/_jacobtomlinson) or email me
+[jacob@jacobtomlinson.co.uk](mailto:jacob@jacobtomlinson.co.uk).
+
+## Contribution
+Pull requests are very welcome.
+
+## Theme
+This jekyll theme has been created from scratch. Ideas and inspiration are taken
+from other places but the code is my own.
+
+## Tools and Libraries
+The following tools and libraries are used in this theme
+
+### JavaScript
+ * [jQuery](http://jquery.com/)
+ * [MMenu](http://mmenu.frebsite.nl/)
+ * [HighlightJS](https://highlightjs.org/)
+ * [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+
+### CSS
+ * [Bootstrap](http://getbootstrap.com/)
+ * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+
+### Social
+ * [AddThis](http://www.addthis.com/)
+ * [Disqus](https://disqus.com/)
+
+### Other
+ * [Real Favicon Generator](http://realfavicongenerator.net/)
+ * [Google Analytics](http://www.google.com/analytics/)
+
+## License
+The jekyll theme, HTML, CSS and JavaScript is licensed under GPLv3 (unless stated otherwise in the file).
