@@ -41,7 +41,7 @@ public class Application {
 
 - JPA 2.1부터 사용 가능
 
-```JAVA
+```java
 @Converter
 public class TestConverter implements AttributeConverter<LocalDateTime, Date> {
 
@@ -58,7 +58,7 @@ public class TestConverter implements AttributeConverter<LocalDateTime, Date> {
 }
 ```
 
-```JAVA
+```java
 @Entity
 public class TestEntity {
 
