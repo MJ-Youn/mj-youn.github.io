@@ -67,6 +67,8 @@ ssh-rsa UsCyXWby4MBfKAk29kGostWPTNMNepp0uBJPUi6lmvMOfAvIhO03Uy1tSLR4HrtdmmWpmf59
 
 해당 값을 복사하여 "gitlab.co.kr >> User settings >> SSH 키" 화면에 입력
 
+![이미지_1581055194001.png](/assets/imgs/2020-02-07/이미지_1581055194001.png)
+
 ## 3. SSH config 설정
 
 ```shell
@@ -84,6 +86,8 @@ Host gitlab.ymtech.co.kr # gitlab.ymtech.co.kr 페이지에 대해서 인증
 ## 4. git clone
 
 gitlab repository에서 지원하는 clone 방식중 하나인 ssh 방식의 url을 복사하여 git clone
+
+![이미지_1581055413001.png](/assets/imgs/2020-02-07/이미지_1581055413001.png)
 
 ```shell
 $ git clone git@gitlab.ymtech.co.kr:beeai/beeai-webtoolkit-2020.git

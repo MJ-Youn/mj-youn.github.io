@@ -291,3 +291,41 @@ a:active, a:focus {
 #wrapper {
   min-height: calc(100vh - 100px);
 }
+
+/* */
+/********************* start: scroll *********************/
+/* */
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(51, 51, 51);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(68, 68, 68);
+}
+
+::-webkit-scrollbar-track-piece {
+  background: rgb(37,37,38);
+}
+
+::-webkit-scrollbar-corner {
+  background: rgb(37,37,38);
+}
+
+.mini-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* */
+/********************* end: scroll *********************/
+/* */
