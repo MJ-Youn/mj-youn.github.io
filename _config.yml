@@ -8,7 +8,7 @@ title_description: "회사에서 진행한 것들.. 흥미를 가지고 배우�
 title_image: "https://s.gravatar.com/avatar/0c1b4f11eccfba53b6f269d8a8aab6c6?s=80"
 google_analytics: "UA-131189286-1"
 disqus_account: yun0244
-github_repository: https://github.com/MJ-Youn/mj-youn.github.io
+github_repository: https://github.com/MJ-Youn
 addthis_id: 
 post_limit: 10
 
@@ -24,7 +24,7 @@ xing_link:
 facebook_link:
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_left: ""
 footer_right: ""
 
 # Build settings
@@ -36,3 +36,5 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
+
+gems: - jekyll-sitemap
