@@ -1,38 +1,15 @@
-# Site settings
-title: "신입 개발자 블로그"
-email: yun0244@naver.com
-description: "새롭게 배운 것들을 내 맘대로 작성하는 블로그."
-baseurl: ""
-url: "https://mj-youn.github.io/"
-title_description: "회사에서 진행한 것들.. 흥미를 가지고 배우게 된 것들에 대해서 정리하기 위한 블로그 입니다."
-title_image: "https://s.gravatar.com/avatar/0c1b4f11eccfba53b6f269d8a8aab6c6?s=80"
+# Example Site settings
+
 google_analytics: "UA-131189286-1"
-disqus_account: yun0244
-github_repository: https://github.com/MJ-Youn
-addthis_id: 
-post_limit: 10
 
-# Social usernames/URLs
-twitter_username: 
-github_username: MJ-Youn
-instagram_username: 
-reddit_username: 
-linkedin_link: 
-google_plus_link: 
-stackoverflow_link: 
-xing_link:
-facebook_link:
+#header_pages:
+#  - index.md
+#  - about.md
 
-# Footer
-footer_left: ""
-footer_right: ""
+footer: 'follow us on <a href="https://github.com/MJ-Youn/">github</a>'
 
-# Build settings
-markdown: kramdown
+#style: light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-permalink: pretty
-exclude: [vendor]
+plugins:
+  - jekyll-seo-tag
