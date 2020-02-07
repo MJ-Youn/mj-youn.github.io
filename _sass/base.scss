@@ -143,7 +143,9 @@ dt {
 }
 
 ul li {
-  list-style-image:url('../assets/bullet.png');
+  // list-style-image:url('../assets/bullet.png');
+  list-style: circle;
+  margin-left: -20px;
 }
 
 blockquote {
