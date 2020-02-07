@@ -276,8 +276,16 @@ a:active, a:focus {
 
 .pagination, footer {
   height: 50px;
-  line-height: 50px;
+  line-height: 20px;
   text-align: center;
+}
+
+.page-item {
+  border: 1px solid #353532;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
 }
 
 #wrapper {
