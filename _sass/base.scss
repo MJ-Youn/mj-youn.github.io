@@ -102,7 +102,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: 'Nanum Gothic Coding', serif;
   color: $header;
-  letter-spacing: 0.1em;
   margin: 30px 0 2px 0;
   // text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
   //              0 0 5px rgba(181, 232, 83, 0.1),
@@ -114,7 +113,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h2 {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #main_content h3 {
@@ -329,3 +329,19 @@ a:active, a:focus {
 /* */
 /********************* end: scroll *********************/
 /* */
+
+.by-line {
+  display: block;
+  text-align: right;
+}
+
+.post-list-time {
+  display: block;
+  text-align: right;
+  margin-top: -19px;
+  padding-right: 5px;
+}
+
+// ul#post-list li {
+  list-style: none; 
+}

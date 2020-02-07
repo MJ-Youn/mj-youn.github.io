@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<ul>
+<ul id="post-list">
     {% for post in paginator.posts %}
       <li>
           <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h2>
-          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y-%m-%d' }}</time>
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}" class="post-list-time">{{ post.date | date: '%Y-%m-%d' }}</time>
           <p>{{ post.content | strip_html | truncatewords:50 }}</p>
       </li>
     {% endfor %}
