@@ -9,7 +9,7 @@ title: About
 |---|---|
 |이름|윤명준|
 |생년월일|1991. 12. 05.|
-|Mail|yun0244@naver.com|
+|Mail|{{ site.author.email }}|
 
 ### 연력
 
