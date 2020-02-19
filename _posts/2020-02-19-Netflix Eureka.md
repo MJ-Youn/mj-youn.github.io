@@ -284,8 +284,8 @@ ribbon:
   ReadTimeout: 30000
   eureka:
     enabled: true
-	ServerListRefreshInterval: 1000
-	
+    ServerListRefreshInterval: 1000
+
 ...
 ```
 
