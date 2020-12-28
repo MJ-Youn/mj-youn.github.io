@@ -83,6 +83,14 @@ Host gitlab.ymtech.co.kr # gitlab.ymtech.co.kr 페이지에 대해서 인증
         Preferredauthentications publickey # ??
 ```
 
+만약 실행시 `~/.ssh/config`의 권한이 없다고 에러가 발생할 경우
+
+```
+chmod 600 ~/.ssh/confg
+```
+
+위와 같이 실행 권한을 변경해주면 된다.
+
 ## 4. git clone
 
 gitlab repository에서 지원하는 clone 방식중 하나인 ssh 방식의 url을 복사하여 git clone
