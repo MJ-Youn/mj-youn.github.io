@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="11px" viewBox="0 0 20 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <g id="청첩장" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="시안" transform="translate(-148, -5877)" fill="#4E4E4E">
+            <g id="하단" transform="translate(0, 5806)">
+                <g id="1" transform="translate(148, 34)">
+                    <g id="Group-7" transform="translate(0, 37)">
+                        <polygon id="Fill-1" points="6 6 14 6 14 5 6 5"></polygon>
+                        <g id="Group-6">
+                            <path d="M1,5.5 C1,3.0185 3.0185,1 5.5,1 L8,1 L8,0 L5.5,0 C2.4675,0 0,2.4675 0,5.5 C0,8.5325 2.4675,11 5.5,11 L8,11 L8,10 L5.5,10 C3.0185,10 1,7.9815 1,5.5" id="Fill-2"></path>
+                            <path d="M14.5,0 L12,0 L12,1 L14.5,1 C16.9815,1 19,3.0185 19,5.5 C19,7.9815 16.9815,10 14.5,10 L12,10 L12,11 L14.5,11 C17.5325,11 20,8.5325 20,5.5 C20,2.4675 17.5325,0 14.5,0" id="Fill-4"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
