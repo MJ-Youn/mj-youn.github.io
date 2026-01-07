@@ -28,8 +28,8 @@ layout: page
         기존 클래스 구조(date day, date month)를 유지하면서 월-일 순서로 변경했습니다.
         JS 오버라이딩 방지를 위해 data 속성은 제거했습니다.
       -->
-      <span class="date month">{{ post.date | date: '%m' }}월</span>
-      <span class="date day small text-muted ms-1">{{ post.date | date: '%d' }}일</span>
+      <span class="date month">{{ post.date | date: '%m' }}</span>
+      <span class="date day small text-muted ms-1">{{ post.date | date: '%d' }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
 
