@@ -1,0 +1,38 @@
+---
+layout: page
+# 포스트 아카이브 페이지입니다.
+---
+
+{% include lang.html %}
+
+{% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
+{% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
+
+<div id="archives" class="pl-xl-3">
+  {% for post in site.posts %}
+    {% assign cur_year = post.date | date: '%Y' %}
+
+    {% if cur_year != last_year %}
+      {% unless forloop.first %}</ul>{% endunless %}
+
+      <time class="year lead d-block">{{ cur_year }}</time>
+      {{ '<ul class="list-unstyled">' }}
+
+      {% assign last_year = cur_year %}
+    {% endif %}
+
+    <li>
+      {% assign ts = post.date | date: '%s' %}
+      <!-- 
+        커스텀 날짜 형식: MM-DD
+        기존 클래스 구조(date day, date month)를 유지하면서 월-일 순서로 변경했습니다.
+        JS 오버라이딩 방지를 위해 data 속성은 제거했습니다.
+      -->
+      <span class="date month">{{ post.date | date: '%m' }}</span>
+      <span class="date day small text-muted ms-1">{{ post.date | date: '%d' }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+</div>

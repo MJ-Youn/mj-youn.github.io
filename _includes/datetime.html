@@ -7,7 +7,7 @@ assign day_kor = "목" %} {% when "Fri" %}{% assign day_kor = "금" %} {% when
 {% else %}{% assign day_kor = day_eng %} {% endcase %}
 
 <!-- 
-  Custom Date Format: YYYY-MM-DD (Day)
-  Attributes removed to prevent JS override.
+  커스텀 날짜 형식: YYYY-MM-DD (요일)
+  JS에 의한 강제 포맷팅을 방지하기 위해 data 속성을 제거했습니다.
 -->
 <span class="date">{{ date_obj | date: date_format }} ({{ day_kor }})</span>
