@@ -1,0 +1,31 @@
+<!--
+  Favicon overridden to use site.avatar
+  _config.yml의 avatar 이미지를 파비콘으로 사용
+-->
+
+{% if site.avatar %}
+<!-- Avatar image as favicon -->
+<link rel="icon" type="image/png" href="{{ site.avatar }}" />
+<link rel="shortcut icon" type="image/png" href="{{ site.avatar }}" />
+<link rel="apple-touch-icon" href="{{ site.avatar }}" />
+{% else %}
+<!-- Fallback to default theme favicons if avatar is missing -->
+{% capture favicon_path %}{{ '/assets/img/favicons' | relative_url }}{%
+endcapture %}
+
+<link
+  rel="icon"
+  type="image/png"
+  href="{{ favicon_path }}/favicon-96x96.png"
+  sizes="96x96"
+/>
+<link rel="icon" type="image/svg+xml" href="{{ favicon_path }}/favicon.svg" />
+<link rel="shortcut icon" href="{{ favicon_path }}/favicon.ico" />
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="{{ favicon_path }}/apple-touch-icon.png"
+/>
+{% if site.pwa.enabled %}
+<link rel="manifest" href="{{ favicon_path }}/site.webmanifest" />
+{% endif %} {% endif %}
