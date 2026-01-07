@@ -1,0 +1,13 @@
+{% assign date_format = "%Y-%m-%d" %} {% assign date_obj = include.date |
+default: page.date %} {% assign day_eng = date_obj | date: "%a" %} {% case
+day_eng %} {% when "Mon" %}{% assign day_kor = "월" %} {% when "Tue" %}{% assign
+day_kor = "화" %} {% when "Wed" %}{% assign day_kor = "수" %} {% when "Thu" %}{%
+assign day_kor = "목" %} {% when "Fri" %}{% assign day_kor = "금" %} {% when
+"Sat" %}{% assign day_kor = "토" %} {% when "Sun" %}{% assign day_kor = "일" %}
+{% else %}{% assign day_kor = day_eng %} {% endcase %}
+
+<!-- 
+  Custom Date Format: YYYY-MM-DD (Day)
+  Attributes removed to prevent JS override.
+-->
+<span class="date">{{ date_obj | date: date_format }} ({{ day_kor }})</span>
