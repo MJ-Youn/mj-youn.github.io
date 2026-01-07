@@ -20,7 +20,7 @@ comments: true
 # 프로젝트 설정
 
  - 프로젝트 설정은 1분정도만 google 검색하면 쉽게 찾을 수 있으니 설명하지 않겠다.
- - 다른 블로그를 참조한다. <http://m.blog.naver.com/hji0223/220370639441>
+ - 다른 블로그를 참조한다. <https://m.blog.naver.com/hji0223/220370639441>
 
 # Install Script 수정
 

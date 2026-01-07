@@ -11,11 +11,11 @@ comments: true
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<beans:beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:beans="http://www.springframework.org/schema/beans"
-	xmlns:security="http://www.springframework.org/schema/security"
-	xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-4.2.xsd
-		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+<beans:beans xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="https://www.springframework.org/schema/beans"
+	xmlns:security="https://www.springframework.org/schema/security"
+	xsi:schemaLocation="https://www.springframework.org/schema/security https://www.springframework.org/schema/security/spring-security-4.2.xsd
+		https://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
 
     <!-- 권한이 없는 페이지 -->
     <security:http pattern="/css/**" security="none" />

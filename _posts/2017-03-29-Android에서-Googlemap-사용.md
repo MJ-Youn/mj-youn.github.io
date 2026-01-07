@@ -13,7 +13,7 @@ comments: true
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="https://schemas.android.com/apk/res/android"
     package="io.github.mj_youn.testapplication">
 
 <!-- 인터넷 사용과 위치 정보 사용을 위한 permission 추가 -->

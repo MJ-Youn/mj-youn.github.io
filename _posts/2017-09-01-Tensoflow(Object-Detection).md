@@ -17,7 +17,7 @@ comments: true
 
 # 사용법
 
-[사용 예제](http://bcho.tistory.com/1192)
+[사용 예제](https://bcho.tistory.com/1192)
 
 ### 1. Python 라이브러리 설치
 
@@ -80,7 +80,7 @@ python object_detection/builders/model_builder_test.py
 ### 6. 모델 설치
 
 ```sh
-wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz
+wget https://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz
 tar -xvzf ssd_mobilenet_v1_coco_11_06_2017.tar.gz
 ```
 
@@ -88,11 +88,11 @@ tar -xvzf ssd_mobilenet_v1_coco_11_06_2017.tar.gz
 
 |Speed|주소|
 |---|---|
-|fast|<http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz>|
-|fast|<http://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_11_06_2017.tar.gz>|
-|medium|<http://download.tensorflow.org/models/object_detection/rfcn_resnet101_coco_11_06_2017.tar.gz>|
-|medium|<http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_coco_11_06_2017.tar.gz>|
-|slow|<http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_coco_11_06_2017.tar.gz>|
+|fast|<https://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz>|
+|fast|<https://download.tensorflow.org/models/object_detection/ssd_inception_v2_coco_11_06_2017.tar.gz>|
+|medium|<https://download.tensorflow.org/models/object_detection/rfcn_resnet101_coco_11_06_2017.tar.gz>|
+|medium|<https://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_coco_11_06_2017.tar.gz>|
+|slow|<https://download.tensorflow.org/models/object_detection/faster_rcnn_inception_resnet_v2_atrous_coco_11_06_2017.tar.gz>|
 
 ### 7. Jupyter 설정
 

@@ -17,8 +17,8 @@ comments: true
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -104,7 +104,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: "http://127.0.0.1:8761/eureka"
+      defaultZone: "https://127.0.0.1:8761/eureka"
   server:
     wait-time-in-ms-when-sync-empty: 0
 ```
@@ -133,7 +133,7 @@ eureka:
     register-with-eureka: false # 자기 자신을 다른 eureka server에 등록을 막는다.
     fetch-registry: false # client 서비스가 eureka 서버로 받는 서비스 리스트 정보를 local에 caching 할지 여부
     service-url:
-      defaultZone: http://localhost:${server.port}/eureka
+      defaultZone: https://localhost:${server.port}/eureka
   server:
     eviction-interval-timer-in-ms: 1000 # client가 종료된 후 서버 목록에서 1000ms 후 제거
     wait-time-in-ms-when-sync-empty: 0
@@ -243,7 +243,7 @@ eureka:
     prefer-ip-address: true # Eureka 등록시 사용한 IP를 가지고 Eureka에서 호출할 수 있게 함
   client:
     service-url:
-      defaultZone: "http://127.0.0.1:18082/eureka"
+      defaultZone: "https://127.0.0.1:18082/eureka"
     registry-fetch-interval-seconds: 5
 
 # zuul 설정
@@ -347,7 +347,7 @@ eureka:
     instance-id: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}} # random instance-id로 선언
   client:
     service-url:
-      defaultZone: "http://127.0.0.1:18082/eureka" # eureka 접속 URL
+      defaultZone: "https://127.0.0.1:18082/eureka" # eureka 접속 URL
 
 ...
 ```
