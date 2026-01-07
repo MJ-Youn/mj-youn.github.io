@@ -3,6 +3,7 @@ layout: post
 title: "install shield로 다른 프로그램 설치"
 date: 2017-04-04
 excerpt: "install shield로 여러개의 실행파일을 포함한 실행파일 만드는 방법"
+categories: [Etc]
 tags: [windows, install shield, exe, bat, msi]
 comments: true
 ---

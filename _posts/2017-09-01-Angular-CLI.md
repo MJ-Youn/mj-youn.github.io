@@ -3,6 +3,7 @@ layout: post
 title: "Angular CLI"
 date: 2017-09-01
 excerpt: "Angular 프로젝트를 쉽게 생성할 수 있게 도와주는 툴"
+categories: [Front-end, JavaScript]
 tags: [angular, angular cli]
 comments: true
 ---

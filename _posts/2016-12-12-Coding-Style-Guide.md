@@ -2,6 +2,7 @@
 layout: post
 title: "Python2 code style guide"
 date: 2016-12-12
+categories: [AI, Python]
 tags: [python, code style guide]
 comments: true
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Docker Init"
 date: 2018-10-10
 excerpt: "Docker를 시작하기 위한 Docker 기본 사용법 및 명령어"
+categories: [DevOps, Docker]
 tags: [docker]
 comments: true
 ---

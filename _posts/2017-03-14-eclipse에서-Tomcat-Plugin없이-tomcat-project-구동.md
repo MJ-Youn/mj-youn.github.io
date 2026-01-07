@@ -3,6 +3,7 @@ layout: post
 title: "eclipse에서 Tomcat Plugin없이 tomcat project 구동"
 date: 2017-03-14
 excerpt: "최근에 나온 eclipse(luna +)에선 tomcat plugin을 사용할 수 없다. 이를 해결하기 위한 방법"
+categories: [Back-end, Java]
 tags: [tomcat, eclipse, sts, tomcat project, tomcat plugin]
 comments: true
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "SSH key를 사용하여 git 인증을하는 방법 (gitlab)"
 date: 2020-02-07
+categories: [DevOps, Git]
 tags: [git, gitlab, ssh]
 comments: true
 ---

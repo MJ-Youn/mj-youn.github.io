@@ -2,6 +2,7 @@
 layout: post
 title: "Maven Profile 활용"
 date: 2016-12-12
+categories: [Back-end, Java]
 tags: [java, nhn entertainment, maven]
 comments: true
 ---

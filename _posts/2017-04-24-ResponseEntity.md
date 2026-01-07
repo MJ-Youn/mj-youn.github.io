@@ -3,6 +3,7 @@ layout: post
 title: "ResponseEntity"
 date: 2017-04-24
 excerpt: "ResponseHeader Util을 따로 만들지 않아서 header를 만들어 보낼 수 있는 데이터 타입"
+categories: [Back-end, Spring]
 tags: [spring, java, responseheader, responseentity]
 comments: true
 ---

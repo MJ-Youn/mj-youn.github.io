@@ -2,6 +2,7 @@
 layout: post
 title: "Netflix Eureka"
 date: 2020-02-19
+categories: [Back-end, Spring]
 tags: [spring boot, msa, eureka, spring cloud]
 comments: true
 ---

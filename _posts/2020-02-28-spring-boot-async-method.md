@@ -2,6 +2,7 @@
 layout: post
 title: "Spring boot async method"
 date: 2020-02-28
+categories: [Back-end, Spring]
 tags: [spring boot, aync]
 comments: true
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "JAVA의 JUnit을 사용한 테스트 코드 작성"
 date: 2019-01-24
+categories: [Back-end, Spring]
 tags: [java, junit, spring, junit4, java test]
 comments: true
 ---

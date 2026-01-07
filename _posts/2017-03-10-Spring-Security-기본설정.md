@@ -3,6 +3,7 @@ layout: post
 title: "Spring Security 기본설정"
 date: 2017-03-10
 excerpt: "Spring Security의 기본설정, 하는 방식이 너무 많아 헷갈리지 않도록 정리."
+categories: [Back-end, Spring]
 tags: [java, spring, spring security]
 comments: true
 ---

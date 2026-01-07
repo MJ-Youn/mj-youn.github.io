@@ -2,6 +2,7 @@
 layout: post
 title: "property를 bean으로 추가하는 방법"
 date: 2016-12-12
+categories: [Back-end, Spring]
 tags: [java, property, bean, spring]
 comments: true
 ---

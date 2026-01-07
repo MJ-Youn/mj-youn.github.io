@@ -3,6 +3,7 @@ layout: post
 title: "UTF8인코딩 csv 파일을 excel에서 열기"
 date: 2017-03-08
 excerpt: "구버전 excel에서 utf-8 csv 파일을 한글깨짐 없이 excel에서 열 수 있도록 하는 방법"
+categories: [Back-end, Database]
 tags: [excel, csv, utf-8, utf-8bom]
 comments: true
 ---

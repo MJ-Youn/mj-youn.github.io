@@ -3,6 +3,7 @@ layout: post
 title: "JAVA7 try-resources 구문 활용."
 date: 2017-07-10
 excerpt: "JAVA7부터 지원하는 try-resources 구문 활용법"
+categories: [Back-end, Java]
 tags: [java, java7, try-resources, AutoCloseable]
 comments: true
 ---

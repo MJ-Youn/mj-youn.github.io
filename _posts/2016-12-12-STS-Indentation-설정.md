@@ -3,6 +3,7 @@ layout: post
 title: "STS Indentation 설정"
 date: 2016-12-12
 excerpt: "eclipse/STS에서 사용할 수 있는 indentation 설정 팁"
+categories: [Back-end, Java]
 tags: [java, sts, eclipse, indentation, style guide]
 comments: true
 ---

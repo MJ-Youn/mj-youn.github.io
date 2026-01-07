@@ -3,6 +3,7 @@ layout: post
 title: "folder내의 모든 파일을 순회하고 싶다!"
 date: 2016-12-12
 excerpt: "모든 파일 순회"
+categories: [Back-end, Java]
 tags: [java, folder, directory, java7]
 comments: true
 ---

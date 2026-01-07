@@ -2,6 +2,7 @@
 layout: post
 title: "JPA에서 Localdatetime을 사용하는 방법"
 date: 2018-12-20
+categories: [Back-end, Spring]
 tags: [java8, spring, jpa]
 comments: true
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "VSCode로 원격 파일을 수정해보자!"
 date: 2018-10-12
 excerpt: "VSCode의 플러그인을 사용하여 VM의 원격 파일을 수정하기 위한 세팅"
+categories: [DevOps, Linux]
 tags: [vscode, ssh, vm]
 comments: true
 ---

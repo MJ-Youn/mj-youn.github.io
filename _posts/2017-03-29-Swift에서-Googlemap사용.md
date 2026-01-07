@@ -3,6 +3,7 @@ layout: post
 title: "Swift3에서 googlemap 사용"
 date: 2017-03-29
 excerpt: "swift 3.X 버전에서 Google map을 연동하여 사용하는 방법"
+categories: [Mobile, iOS]
 tags: [ios, swift, swift3, googlemap]
 comments: true
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Spring boot에서 error page 처리하는 방법"
 date: 2020-02-12
+categories: [Back-end, Spring]
 tags: [spring boot, error, exception]
 comments: true
 ---

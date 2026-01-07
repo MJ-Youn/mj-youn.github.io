@@ -2,6 +2,7 @@
 layout: post
 title: "Git repository auto deploy shell"
 date: 2020-03-09
+categories: [DevOps, Git]
 tags: [bash shell, shell, git]
 comments: true
 ---

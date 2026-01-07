@@ -3,6 +3,7 @@ layout: post
 title: "Spring Security Tips"
 date: 2017-04-24
 excerpt: "Spring Security를 사용하면서 얻게 되는 Tip을 정리하기 위한 포스트"
+categories: [Back-end, Spring]
 tags: [spring, spring security, security]
 comments: true
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "AngularJS ?"
 date: 2017-01-06
 excerpt: "기본적인 AngularJS 문법"
+categories: [Front-end, JavaScript]
 tags: [angularJS, angular, javascript framework, grammar]
 comments: true
 ---

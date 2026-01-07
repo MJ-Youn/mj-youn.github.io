@@ -3,6 +3,7 @@ layout: post
 title: "Object List를 Ajax로 보내는 방법"
 date: 2017-06-19
 excerpt: "할때 마다 까먹고, 하두 뻘짓을 많이 해서 정리해 둠..."
+categories: [Back-end, Spring]
 tags: [ajax, jquery, javascript, spring, java]
 comments: true
 ---

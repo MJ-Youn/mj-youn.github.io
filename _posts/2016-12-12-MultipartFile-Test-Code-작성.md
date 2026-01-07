@@ -2,6 +2,7 @@
 layout: post
 title: "MultipartFile Test Code 작성"
 date: 2016-12-12
+categories: [Back-end, Java]
 tags: [java, multipartfile, test code, tdd, junit]
 comments: true
 ---

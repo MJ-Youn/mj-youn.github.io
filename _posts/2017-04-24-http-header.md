@@ -3,6 +3,7 @@ layout: post
 title: "Http Header"
 date: 2017-04-24
 excerpt: "Http Header 통신을 하면서 알게된 내용"
+categories: [Back-end, Spring]
 tags: [http, http header, spring, jquery]
 comments: true
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "CSS3 Transition"
 date: 2017-07-13
 excerpt: "CSS3에서 사용가능한 transition"
+categories: [Front-end, CSS]
 tags: [css, css3, transition]
 comments: true
 ---

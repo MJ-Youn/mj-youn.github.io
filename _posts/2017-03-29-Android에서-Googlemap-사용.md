@@ -3,6 +3,7 @@ layout: post
 title: "Android에서 googlemap 사용"
 date: 2017-03-29
 excerpt: "android에서 Googlemap을 사용하는 방법"
+categories: [Mobile, Android]
 tags: [android, googlemap]
 comments: true
 ---

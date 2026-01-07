@@ -3,6 +3,7 @@ layout: post
 title: "Tensorflow - Obejct Detection"
 date: 2017-09-01
 excerpt: "Tensorflow를 사용한 Object Detection"
+categories: [AI, Python]
 tags: [tensorflow, object detection]
 comments: true
 ---

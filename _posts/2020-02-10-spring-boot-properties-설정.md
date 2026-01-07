@@ -2,6 +2,7 @@
 layout: post
 title: "Spring boot의 properties 설정 파일의 위치"
 date: 2020-02-10
+categories: [Back-end, Spring]
 tags: [spring boot, application.yml, properties]
 comments: true
 ---

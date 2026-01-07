@@ -3,6 +3,7 @@ layout: post
 title: "CSS3 Animation"
 date: 2017-07-13
 excerpt: "CSS3에서 사용가능한 animation"
+categories: [Front-end, CSS]
 tags: [css, css3, animation]
 comments: true
 ---

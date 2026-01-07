@@ -2,6 +2,7 @@
 layout: post
 title: "Netflix Zuul"
 date: 2020-02-11
+categories: [Back-end, Spring]
 tags: [MSA, Netflix Zuul, Zuul, Spring boot]
 comments: true
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Learn the Shell Script"
 date: 2016-11-21
 excerpt: "기본적인 shell script 문법"
+categories: [DevOps, Linux]
 tags: [shell, shell script, grammar]
 comments: true
 ---
