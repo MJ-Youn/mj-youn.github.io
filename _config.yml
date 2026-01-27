@@ -24,7 +24,7 @@ description: >- # SEO 메타 태그와 Atom 피드에서 사용됩니다
 
 # 사이트의 프로토콜과 호스트명을 입력하세요.
 # 예: 'https://username.github.io' (끝에 '/' 제외)
-url: "https://mj-youn.github.io"
+url: "https://mj.is-a.dev"
 
 github:
   username: mj-youn # GitHub 사용자명을 입력하세요
