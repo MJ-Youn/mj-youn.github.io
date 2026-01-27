@@ -4,6 +4,7 @@ title: Jekyll 블로그 Chirpy 테마 이전기 (Chirpy Starter 기반)
 date: 2026-01-07 16:30:00 +0900
 categories: [Blogging, Jekyll]
 tags: [jekyll, chirpy, github-pages, migration]
+slug: chirpy-migration
 ---
 
 오랫동안 사용해오던 Jekyll 블로그의 테마를 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)로 변경하기로 결정했다. 이번 작업은 기존 저장소를 유지하면서 테마만 입히는 방식이 아니라, **Chirpy Starter 템플릿을 기반으로 아예 새로 시작**하는 방식을 택했다.
