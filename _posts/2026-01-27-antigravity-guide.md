@@ -37,32 +37,54 @@ AI에게 "항상 한글로 대답해줘", "DTO에는 Getter/Setter를 꼭 넣어
 - **내 예시 (현재 적용중인 규칙)**:
 
 ```text
-1. 기본 설정
- - 항상 한글로 대답해줘
- - 소스 코드를 작성하고, 주석/API를 작성할 때는 항상 한글로 작성해줘
- - plan, task, walkthrough 작성은 항상 한글로 해줘
+### 1. 기본 소통 및 언어 설정 (Language & Communication)
+ - 항상 한글 대답: 모든 답변은 반드시 한글로 작성합니다. 🇰🇷
+ - 소스 코드 및 주석: 소스 코드를 작성할 때, 주석 및 API 문서는 항상 한글로 상세히 작성합니다.
+ - 산출물 작성: 개발 계획(Plan), 작업 목록(Task List), 코드 설명(Walkthrough)은 항상 한글을 사용하여 명확하게 전달합니다.
 
-2. 내 정보
- - 이름: OOO
- - 회사: OOO
- - 직급: OOO
- - 직위: OOO
+### 2. 내 정보 및 메타데이터 (Identity)
+ - 이름(Author): 윤명준 (MJ Yune)
+ - 회사: (주)유미테크 (YM Tech)
+ - 직급/직위: 과장 / 개발3팀장
+ - 이메일: mjyune@ymtech.co.kr
 
-3. 소스 코드 작성
- - 모든 class, method에는 API 작성, API에는 @author, @since 정보는 항상 포함
-   (단 override된 method의 API는 @see, @author, @since 정보만 포함)
- - if, for 문 같이 사용하는 block 함수는 내부 코드가 한줄이라도 '{}'로 묶어서 작성해줘
- - import는 항상 소스 파일의 상단에 작성해줘
- - java에서 DTO, VO, Entity같은 객체는 항상 getter, setter, toString 함수를 작성해야해
+### 3. 소스 코드 작성 표준 (Coding Standards)
 
-4. 소스 리팩토링
- - 사용하지 않는 변수, 메소드 삭제
- - import는 항상 소스 파일의 상단에 작성
- - 주석, API, Document 정보중 필요 없는 정보는 삭제
- - 주석, API, Document 는 항상 한글로 작성
- - class, method의 API, Document에는 @since, @author 정보를 항상 포함
- - override method에는 @see 정보 작성
- - if, for 문 등의 내부의 코드가 한줄인 코드도 '{}'로 묶어서 작성
+#### 3.1 Java 공통 규칙
+
+ - Block 구문 준수: if, for, while, do-while 등의 제어문은 내부 코드가 단 한 줄이라도 반드시 중괄호 {}를 사용하여 작성합니다.
+ - Import 최적화: 모든 import 구문은 소스 파일의 최상단에 작성하며, 사용하지 않는 import는 실시간으로 제거합니다.
+ - 객체 정의 (DTO, VO, Entity): 모든 데이터 객체에는 getter, setter, toString 메서드를 반드시 작성해야 합니다.
+ - 프로젝트 환경에 따라 Lombok(@Data, @Getter, @Setter 등) 사용을 우선적으로 제안하되, 직접 작성이 필요할 경우 표준 관례를 따릅니다.
+ - 의존성 주입: Spring Framework 환경에서는 필드 주입(@Autowired)보다는 생성자 주입(Constructor Injection) 방식을 권장합니다.
+
+#### 3.2 JavaScript & AngularJS 규칙
+
+ - 명명 규칙: 변수 및 함수 명명 규칙은 CamelCase를 엄격히 준수합니다.
+ - 디버깅 코드: console.log는 개발 및 디버깅 시에만 사용하며, 최종 코드 제출 전에는 제거하거나 적절한 로깅 라이브러리로 대체합니다.
+
+### 4. 문서화 및 API 주석 (Documentation / Javadoc)
+
+#### 4.1 기본 API 주석 가이드
+
+ - 모든 class와 public method에는 Javadoc 스타일의 API 주석을 작성합니다.
+ - 필수 포함 태그: 
+
+| tag | 내용 |
+|---|---|
+| @author | 윤명준 (MJ Yune) |
+| @since | 작성 시점의 날짜 (형식: YYYY-MM-DD) |
+
+ - Override 메서드 처리: @Override 어노테이션을 반드시 명시합니다.
+ - 상속받은 메서드의 API 주석에는 @see, @author, @since 정보만 포함하여 중복을 최소화합니다.
+
+### 5. 소스 리팩토링 및 품질 관리 (Refactoring & Quality)
+
+ - Dead Code 제거: 사용하지 않는 변수, 메서드, 파라미터는 발견 즉시 삭제하여 코드를 깨끗하게 유지합니다.
+ - 로직 추출: 복잡도가 높은 로직은 의미 있는 단위의 메서드로 추출(Extract Method)하여 가독성을 극대화합니다.
+ - 예외 처리 및 로깅: 예외 발생 시 단순히 e.printStackTrace()를 출력하지 않고, 비즈니스 요구사항에 맞는 적절한 예외 처리와 로깅을 수행합니다.
+ - 문서 정비: 주석이나 API 문서 중 과거의 잔재나 불필요한 정보(완료된 To-do 등)는 정기적으로 삭제합니다.
+ - 일관성 유지: 조건문이나 반복문 내부의 한 줄 코드 블록 처리 규칙은 리팩토링 시에도 예외 없이 적용합니다.
 ```
 
 ### Project Rule (프로젝트별 설정)
