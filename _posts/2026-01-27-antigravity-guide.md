@@ -43,10 +43,10 @@ AI에게 "항상 한글로 대답해줘", "DTO에는 Getter/Setter를 꼭 넣어
  - 산출물 작성: 개발 계획(Plan), 작업 목록(Task List), 코드 설명(Walkthrough)은 항상 한글을 사용하여 명확하게 전달합니다.
 
 ### 2. 내 정보 및 메타데이터 (Identity)
- - 이름(Author): 윤명준 (MJ Yune)
- - 회사: (주)유미테크 (YM Tech)
- - 직급/직위: 과장 / 개발3팀장
- - 이메일: mjyune@ymtech.co.kr
+ - 이름(Author): OOO
+ - 회사: OOO
+ - 직급/직위: OOO
+ - 이메일: email@address.com
 
 ### 3. 소스 코드 작성 표준 (Coding Standards)
 
@@ -72,7 +72,7 @@ AI에게 "항상 한글로 대답해줘", "DTO에는 Getter/Setter를 꼭 넣어
 
 | tag | 내용 |
 |---|---|
-| @author | 윤명준 (MJ Yune) |
+| @author | OOO |
 | @since | 작성 시점의 날짜 (형식: YYYY-MM-DD) |
 
  - Override 메서드 처리: @Override 어노테이션을 반드시 명시합니다.
