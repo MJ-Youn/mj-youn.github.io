@@ -36,7 +36,7 @@ AI에게 "항상 한글로 대답해줘", "DTO에는 Getter/Setter를 꼭 넣어
 - **위치**: `Settings` > `General` > `Rules for AI`
 - **내 예시 (현재 적용중인 규칙)**:
 
-```text
+```Markdown
 ### 1. 기본 소통 및 언어 설정 (Language & Communication)
  - 항상 한글 대답: 모든 답변은 반드시 한글로 작성합니다. 🇰🇷
  - 소스 코드 및 주석: 소스 코드를 작성할 때, 주석 및 API 문서는 항상 한글로 상세히 작성합니다.
