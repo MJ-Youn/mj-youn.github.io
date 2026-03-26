@@ -6,11 +6,10 @@ categories: [DevOps, Spring Boot]
 tags: [spring-boot, gradle, docker, deployment, shell-script, build-template, devops]
 ---
 
-회사에서 Spring Boot 프로젝트를 새로 시작할 때마다 배포 환경 구성을 반복하는 것이 번거로웠다.
-Gradle 빌드 설정, 환경별 설정 파일 분리, Linux 서비스 등록 스크립트, Docker 이미지 빌드 등
-매 프로젝트마다 비슷한 내용을 처음부터 다시 만들었다.
+회사에서 기존에 Spring Boot 프로젝트를 빌드하고 배포하는 도구를 사용하고 있었는데,
+이런 저런 기회로 프로젝트를 docker 형태로 빌드/배포하는 로직을 구성하는 작업을 진행했다. 
 
-이를 해결하기 위해 **Spring Boot 배포 자동화 보일러플레이트 프로젝트**를 만들어 공개했다.
+진행하면서 겸사겸사 불편한 부분을 수정하고, 해보지 않았던 gradle 프로젝트도 사용해보기로 했다.
 
 > 📦 **GitHub 저장소**: [MJ-Youn/build-template](https://github.com/MJ-Youn/build-template)
 
