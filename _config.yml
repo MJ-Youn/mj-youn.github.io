@@ -62,7 +62,7 @@ analytics:
   google:
     id: "G-ZQ77M3XF3Y" # Google Analytics ID 입력
   goatcounter:
-    id: # GoatCounter ID 입력
+    id: "mj-yune" # GoatCounter ID 입력
   umami:
     id: # Umami ID 입력
     domain: # Umami 도메인 입력
@@ -76,7 +76,7 @@ analytics:
 
 # 페이지 뷰 설정
 pageviews:
-  provider: # 현재는 'goatcounter'만 지원합니다
+  provider: "goatcounter" # 현재는 'goatcounter'만 지원합니다
 
 # 선호 색상 테마 설정
 #
