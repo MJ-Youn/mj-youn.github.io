@@ -62,7 +62,7 @@ analytics:
   google:
     id: "G-ZQ77M3XF3Y" # Google Analytics ID 입력
   goatcounter:
-    id: "mj-yune" # GoatCounter ID 입력
+    id: "mj-yun" # GoatCounter ID 입력
   umami:
     id: # Umami ID 입력
     domain: # Umami 도메인 입력
