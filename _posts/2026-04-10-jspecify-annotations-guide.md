@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JSpecify 핵심 어노테이션 가이드: Java Null-Safety 완벽 정복 🛡️"
-date: 2026-04-10 16:30:00 +0900
+date: 2026-04-10 15:30:00 +0900
 categories: [Java, Backend]
 tags: [java, jspecify, null-safety, spring-boot-4, backend]
 ---
@@ -134,4 +134,6 @@ public class CoreService {
 | **`@NonNull`** | 파라미터, 리턴, 필드 | **(타입 지정)** 명시적으로 **Null이 될 수 없음**을 나타낸다. | `@NullMarked` 영역에서는 중복이므로 생략 |
 | **`@NullUnmarked`** | 클래스, 패키지, 메서드 | **(스코프 지정)** `@NullMarked`의 영향을 취소하고, 해당 영역의 Nullness 검사를 **무효화(Unspecified)** 상태로 되돌린다. | 레거시 코드 마이그레이션 중 활용 |
 
-Spring Boot 4.x(Spring Framework 7)은 전체 코드베이스에 JSpecify를 채택하여 완벽한 Null-Safety를 구축했다. 앞으로 새로운 Java 프로젝트를 시작한다면 꼭 패키지 최상단에 `@NullMarked`를 적용하고 시작해 보는 것을 추천한다! 🚀
+---
+
+아직 사용해보기 전이지만, 실제 사용해보면서 내용을 더 정리해볼 예정이다. Validation 관련된 내용도 한 번 정리해보면 좋을거 같다.
