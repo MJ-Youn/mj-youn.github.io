@@ -46,7 +46,7 @@ Map<String, List<UserDto>> userMap = new HashMap<String, List<UserDto>>();
 
 // Java 10+
 var userMap = new HashMap<String, List<UserDto>>();
-var users = List.of(new UserDto("MJ Yune", 35));
+var users = List.of(new UserDto("MJ Yun", 35));
 ```
 
 제네릭이 복잡한 `Map`이나 `List`를 선언할 때 특히 유용하다. IDE가 타입을 추론해주기 때문에 가독성은 오히려 올라간다.
@@ -58,14 +58,14 @@ var users = List.of(new UserDto("MJ Yune", 35));
 ```java
 // Java 8
 String json = "{\n" +
-              "    \"name\": \"MJ Yune\",\n" +
+              "    \"name\": \"MJ Yun\",\n" +
               "    \"role\": \"Team Leader\"\n" +
               "}";
 
 // Java 15+
 String json = """
         {
-            "name": "MJ Yune",
+            "name": "MJ Yun",
             "role": "Team Leader",
             "company": "(주)유미테크"
         }
