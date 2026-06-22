@@ -8,9 +8,10 @@ tags: [Nginx, Server, Proxy, Security, HTTPS]
 comments: true
 ---
 
-웹 애플리케이션을 배포할 때 빼놓을 수 없는 핵심 인프라 중 하나가 바로 **Nginx**다. 처음 Nginx를 접하면 복잡한 설정 파일(`nginx.conf`) 때문에 당황하기 쉽다. 
+회사의 윗분이 무슨 바람이 불었는지 Nginx를 모든 시스템에 적용하자고 한다.
+우리팀에서 배포하는 서비스의 경우 Nginx를 사용하면 장점보단 단점이 많아지고, Nginx를 사용하는거에 장점이 없기 때문에 실제로 사용하는 일은 없을 것 같다. <br/>
 
-오늘은 실제 서비스 환경에서 사용 중인 설정 예제를 바탕으로 Nginx의 핵심 기능인 **정적 파일 서빙, HTTPS 보안 설정, 그리고 리버스 프록시(Reverse Proxy)** 설정을 하나씩 뜯어보며 완벽하게 이해해 본다. ✨
+그래도 Nginx 사용해 보는 경험을 쌓는 느낌으로 Nginx 사용법을 정리해본다.
 
 <br/>
 
@@ -21,7 +22,7 @@ comments: true
 ```nginx
 # nccat-web 서비스로 트래픽을 전달하기 위한 업스트림 정의
 upstream nccat-web {
-    server 127.0.0.1:8082;
+    server 127.0.0.1:8082;햐
 }
 
 # mdtat-web 서비스로 트래픽을 전달하기 위한 업스트림 정의
